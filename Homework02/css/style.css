@@ -1,0 +1,37 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.menu-link {
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.title {
+  color: #222;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.text {
+  color: #7d7987;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.h2 {
+  color: coral;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 80px;
+}
