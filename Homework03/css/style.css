@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: Gilroy;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  color: #666;
+}
+
+.btn {
+  padding: 15px 35px;
+  border: 0;
+  border-radius: 50px;
+  background-color: transparent;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #aaa;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #eee;
+}
+.btn__active {
+  background-color: #f25822;
+  color: #fff;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+}
+.btn__active:hover {
+  background-color: #df4912;
+}
+
+.header__main {
+  /* flex */
+  padding: 40px 0;
+}
+
+.header__logo .logo__img {
+  max-height: 40px;
+}
+
+.header__menu {
+  text-align: right;
+}
+.header__menu .menu__link:not(:first-child) {
+  margin-left: 35px;
+}
+
+.menu__link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+}
+.menu__link.active {
+  color: #f25822;
+}
+
+.top__content {
+  /* flex */
+  padding: 40px 0 160px;
+}
+.top__title {
+  margin-bottom: 15px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+}
+.top__text {
+  margin-bottom: 35px;
+  color: #888;
+}
+
+.top__btns .btn:not(:last-child) {
+  margin-right: 35px;
+}
+
+.top__brands {
+  /* flex */
+  padding: 95px 0;
+}
