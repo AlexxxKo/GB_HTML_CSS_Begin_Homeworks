@@ -10,4 +10,4 @@
 
 ### Примечание
 
-В макете используется шрифт Gilroy. Этот шрифт платный. Поэтому я использую шрифт Mulish, который очень похож на Gilroy: [Шрифт Gilroy](https://skillbox.ru/media/design/how-to-font-gilroy/).
+В макете используется шрифт Gilroy. Этот шрифт платный. И его нет на google fonts. А на лекции объяснялось, как подключить шрифты только из google fonts. Про другие источники ничего не говорилось. Поэтому я использую шрифт Mulish из google fonts, который очень похож на Gilroy: [Шрифт Gilroy](https://skillbox.ru/media/design/how-to-font-gilroy/).
