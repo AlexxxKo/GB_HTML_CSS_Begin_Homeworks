@@ -6,7 +6,8 @@
 
 body {
   background-color: #fff;
-  font-family: Gilroy;
+  font-family: "Mulish", sans-serif;
+  line-height: normal;
 }
 
 a {
@@ -33,9 +34,7 @@ a {
   border-radius: 50px;
   background-color: transparent;
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: 700;
   color: #aaa;
   cursor: pointer;
 }
@@ -51,14 +50,27 @@ a {
   background-color: #df4912;
 }
 
-.header__main {
-  /* flex */
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 40px 0;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
 .logo__img {
   height: 100%;
   max-height: 40px;
+  margin-right: 14px;
+}
+.logo__text {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
 }
 .logo__text1 {
   color: #000;
@@ -76,29 +88,35 @@ a {
 
 .menu__link {
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   color: #000;
 }
 .menu__link.active {
+  font-weight: 600;
   color: #f25822;
 }
 
 .top__content {
-  /* flex */
+  display: flex;
+  justify-content: space-between;
   padding: 40px 0 160px;
+}
+.top__info {
+  padding-right: 20px;
+}
+.top__img {
+  padding-left: 20px;
 }
 .top__title {
   margin-bottom: 15px;
   font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: 700;
   color: #000;
 }
 .top__text {
   margin-bottom: 35px;
+  padding-right: 12%;
   color: #888;
 }
 
@@ -107,6 +125,8 @@ a {
 }
 
 .top__brands {
-  /* flex */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 95px 0;
 }
