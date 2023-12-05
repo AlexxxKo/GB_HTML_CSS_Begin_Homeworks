@@ -338,10 +338,14 @@ img {
   .h2 {
     margin-bottom: 4px;
   }
+  .products__cards {
+    justify-content: center;
+  }
   .products__text {
     margin-bottom: 72px;
   }
   .products__item {
     flex: 1 1 calc(50% - 20px);
+    max-width: 364px;
   }
 }
